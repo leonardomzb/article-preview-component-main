@@ -82,6 +82,7 @@ body{
 
 .article-card_share-button:hover{
   background-color: var(--clr-DesaturatedDarkBlue);
+  transition: 0.3s;
 }
 
 .article-card_share-button:hover svg path{
@@ -118,6 +119,17 @@ body{
 
 .hidden{
   display: none;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  border: 0;
 }
 
 @media (max-width: 768px) {
